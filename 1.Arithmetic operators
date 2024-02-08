@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n1,n2,add,sub,mul,divi,modu;
+    cout<<"Enter the number n1: ";
+    cin>>n1;
+    cout<<"Enter the number n2: ";
+    cin>>n2;
+    add=n1+n2;
+    sub=n1-n2;
+    mul=n1*n2;
+    divi=n1/n2;
+    modu=n1%n2;
+    cout<<"Addition "<<n1<<"+"<<n1<<"="<<add<<endl;
+    cout<<"Subtraction "<<n1<<"-"<<n2<<"="<<sub<<endl;
+    cout<<"Multiplication "<<n1<<"*"<<n2<<"="<<mul<<endl;
+    cout<<"Division "<<n1<<"/"<<n2<<"="<<divi<<endl;
+    cout<<"Mosulo "<<n1<<"%"<<n2<<"="<<modu<<endl;
+    return 0;
+}
