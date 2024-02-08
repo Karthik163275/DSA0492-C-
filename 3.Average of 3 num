@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n1,n2,n3;
+    float ave;
+    cout<<"Enter the number: ";
+    cin>>n1;
+    cout<<"Enter the number: ";
+    cin>>n2;
+    cout<<"Enter the number: ";
+    cin>>n3;
+    ave=(n1+n2+n3)/3.0;
+    cout<<"The average of "<<n1<<", "<<n2<<" and "<<n3<<" is:"<<ave<<endl;
+    return 0;
+}
